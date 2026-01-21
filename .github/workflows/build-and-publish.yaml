@@ -99,6 +99,10 @@ jobs:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org/'
 
+      - name: Publish NPM package (Trusted Publisher)
+        run: |
+          cd packages/${{ needs.setup.outputs.package }}
+          npm publish --provenance
 
   release:
     runs-on: ubuntu-latest

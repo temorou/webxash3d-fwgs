@@ -1,5 +1,5 @@
 {
-  "name": "xash3d-fwgs",
+  "name": "xash3d-fwgs-wasm",
   "version": "1.2.2+commit.7c58854",
   "description": "Xash3D-FWGS emscripten port",
   "homepage": "https://github.com/yohimik/webxash3d-fwgs",
